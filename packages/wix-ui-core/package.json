@@ -92,7 +92,8 @@
   "yoshi": {
     "entry": {
       "app": "index.js",
-      "toggleSwitch": "components/ToggleSwitch/index"
+      "toggleSwitch": "components/ToggleSwitch/index",
+      "pagination": "components/Pagination/index"
     },
     "externals": {
       "react": "react",
