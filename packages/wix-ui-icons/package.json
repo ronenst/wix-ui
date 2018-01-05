@@ -25,7 +25,7 @@
     "posttest": "haste lint",
     "start": "npm run buildIcons && haste start",
     "release": "haste release",
-    "create-aliases": "node ./scripts/create-aliases.js ./dist/src/Icons/dist/components"
+    "create-aliases": "node ./scripts/create-aliases.js ./dist/src/Icons/dist/components && node ./scripts/create-aliases.js ./dist/src/Icons/dynamic"
   },
   "devDependencies": {
     "@types/chai": "~4.0.0",
